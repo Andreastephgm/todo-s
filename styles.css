@@ -1,0 +1,162 @@
+header {
+    background-color: rosybrown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+header h1 {
+    color: pink;
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+    margin: 0;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+footer {
+    background-color: rosybrown;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0 10px;
+    z-index: 1000;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+footer .item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+footer .label2 {
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    line-height: 1.4;
+}
+
+footer .label2 a {
+    color: #fddde6;
+    text-decoration: none;
+    word-wrap: break-word;
+    display: block;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+footer .label2 a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer p#name,
+footer p#developer {
+    text-align: center;
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b2e2e;
+    margin-bottom: 10px;
+}
+
+#newTask {
+    padding: 10px;
+    width: 60%;
+    max-width: 400px;
+    border: 2px solid #a05252;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.task-text.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#taskList li {
+    background-color: #fff4e6;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 500px;
+    font-size: 16px;
+    color: #5a3e36;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#taskList li button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#taskList li .done-btn:hover {
+    color: green;
+}
+
+#taskList li .delete-btn:hover {
+    color: red;
+}
+
+#goButton {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: rosybrown;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#goButton:hover {
+    background-color: #a05252;
+}
+
